@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">MONIKA</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skills</a>
+      <a href="#port">Projects</a>
+      <a href="#con">Contact</a>
+    </nav>
+  </header>
+  <section class="home">
+    <div class="home-content" id="home">
+      <h3>Hi,myself</h3>
+      <h1 class="s"><b><i>Monika</i></b></h1>
+      <h3>And I'm a 
+        <span id="typed-text"></span><span class="cursor"></span></h3>
+      <p> An enthusiatic and aspiring Frontend developer. <br>Expertise in creatiing visually stunning and highly responsive websites.</p>
+      <box-icon type='logo' name='gmail' class="icon"></box-icon>
+      <box-icon type='logo' name='whatsapp' class="icon"></box-icon>
+      <box-icon name='linkedin' type='logo' class="icon"></box-icon>
+      <box-icon name='github' type='logo' class="icon"></box-icon><br>
+      <button class="but1" type="submit">Know More</button>
+    </div>
+    <img src="gold.png" class="no">
+  </section>
+  <section>
+    <div class="About" id="about">
+      <h1>About</h1><br>
+      <img class="ab" src="about.jpg" alt=""><br>
+      <p> I'm a passionate front-end developer, weaving together creativity and code to shape compelling digital landscapes. Fluent in HTML, CSS, and JavaScript, I specialize in translating design concepts into interactive and visually stunning websites. My dedication to creating seamless user experiences is grounded in a meticulous approach to coding standards and a genuine appreciation for aesthetics.
+        Beyond technical expertise, I thrive on collaboration. Whether working with designers or engaging with stakeholders, I value effective communication to ensure that the end product not only meets but exceeds expectations. My commitment to user-centric design extends to staying current with industry trends, allowing me to infuse projects with innovative solutions and fresh perspectives.</p>
+    </div>
+  </section>
+  <section class="a" id="skill">
+    <h1>Skills</h1>
+    <div class="container">
+      <div class="skills">
+         <h2>HTML</h2>
+         <div class="bar">
+            <div class="html"><span>95%</span></div>
+        </div>
+      <div class="skills">
+          <h2>CSS</h2>
+          <div class="bar">
+             <div class="css"><span>90%</span></div>
+          </div>
+       <div class="skills">
+            <h2>JavaScript</h2>
+            <div class="bar">
+                <div class="JavaScript"><span>70%</span></div>
+             </div>
+       <div class="skills">
+            <h2>Bootstrap</h2>
+            <div class="bar">
+                <div class="bootstrap"><span>65%</span></div>
+            </div>
+        </div>
+     </div>
+  </section>
+  <section>
+    <div class="pro" id="port">
+      <h1 class="prob">Projects</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="a2.png" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="a3.png" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="a4.png" class="d-block " alt="...">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="a5.png" class="d-block " alt="...">
+          </div> <div class="carousel-item">
+            <img src="a1.png" class="d-block " alt="...">
+          </div> 
+          <div class="carousel-item">
+            <img src="a6.png" class="d-block " alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <form action="" class="contact-a">
+      <div class="con" id="con">
+        <h1>Contact</h1><br>
+        <h3><u> Get in touch</u></h3>
+      </div >
+      <div class="in">
+      <input type="text" name="name" placeholder="Your name" class="red" required><br>
+      <input type="email" name="Email" placeholder="Your Email" class="red"required><br>
+    <textarea name="message" placeholder="Your message" class="red1"></textarea><br>
+    <button type="submit" class="but">SUBMIT</button>
+    </div>
+  
+    </form>
+  </section>
+  <script src="portfolio.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
